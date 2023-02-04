@@ -1,0 +1,66 @@
+/* html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
+
+#installInstructions {
+  display: none
+}
+@media (display-mode: browser) {
+  #installInstructions {
+    display: block
+  }
+}
+
+html {
+  scroll-behavior: smooth
+
+
+}
+#footer{
+  display: none !important;
+}
+
+#reactions .reaction-items{
+    display: none !important
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
